@@ -1,0 +1,216 @@
+.first{
+    background-color: rgb(25, 30, 52);
+    height: 70px;
+    width: 1400px;
+    border: 1px solid black;
+    border-radius: 3px;
+    }
+    body{
+    overflow-x: hidden;
+    }
+    .second{
+        background-color: rgb(44, 44, 91);
+        height: 50px;
+        width: 1400px;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+    .third{
+        background-color: aliceblue;
+        height: 29px;
+        width: 1400px;
+        border: 1px solid black;
+        border-radius: 3px;
+    
+    }
+    .f{
+        float: left;
+    }
+    .f:hover{
+    
+        border: 2px solid white;
+    }
+    #srch{
+        height: 50px;
+        border-radius: 8px;
+        margin-top: 7px;
+    }
+    .srch:hover{
+        border: 2px solid white;
+    
+    }
+    
+    
+    #slct1{
+       margin-top: 15px;
+       height: 40px;
+       width: 150px;
+       border-radius: 5px;
+     
+    }
+    #box{
+        position: absolute;
+        top: 30px;
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+       
+        
+    }
+    .s{
+        float: left;
+        margin: 10px;
+        
+       
+    }
+    .s:hover{
+        border: 2px solid white;
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu{
+        float: left;
+        
+    }
+    
+    #back{
+        height: 65px;
+        
+    }
+    #lang{
+        height: 40px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .t{
+        float: left;
+        margin: 10px;
+        bottom: 4px;
+    }
+    #th{
+        color: black;
+    }
+    
+    .body{
+        float: left;
+     ;
+        
+    }
+    .body1{
+        border: 1px solid black;
+        height: 1320px;
+        width: 200px;
+        background-color: rgb(243, 239, 239);
+        
+    }
+    b{
+        margin-top: 110px;
+    }
+    #lft{
+        color: black;
+    }
+    #lft:hover{
+        color: orange;
+        transition-delay: 0.1s;
+    }
+    a:hover{
+        color: orange;
+        transition-delay: 0.1s;
+    }
+    #th:hover{
+        color: orange;
+        transition-delay: 0.1s;
+    }
+    .body2{
+        border: 1px solid black;
+        height: 1320px;
+        width: 1160px;
+        float: right;
+        background-color: white;
+       
+       
+    }
+    
+    .item{
+        background-image: linear-gradient(rgb(244, 248, 217),white);
+        border-radius: 10px;
+        height: 530px;
+        width:330px;
+        margin: 20px;
+        padding-top: 20px;
+        float: left;
+        }
+        .im{
+            height: 190px;
+            width: 190px;
+            align-items: baseline;
+          
+        }
+        .pic{
+            height: 200px;
+            width: 200px;
+           
+         
+          border-left: 200px;
+          display: flex;
+         flex-direction: column;
+        }
+        .checked{
+            display: inline-block;
+        }
+        .buy{
+            box-shadow: 4px 4px 4px;
+            border-radius: 10px;
+            margin: 10px;
+            background-color: rgb(111, 190, 242);
+        }
+        .buy:hover{
+            
+            background-color: orange;
+            font-size: 13px;
+        }
+        .buy a:hover{
+            color: black;
+    
+        }
+        .item:hover{
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            transition-duration: 0.1s;
+            background-color: cornflowerblue;
+        }
+        .fcol{
+            float: left;
+        }
+        .scol{
+            float: left;
+        }
+        .more{
+            color: orangered;
+    
+        }
+     .ftr{
+        float: left;
+        justify-content: space-evenly;
+        align-items: center;
+     }
+     .ftr1{
+       margin-left: 280px;
+     }
+     .ftr2{
+        margin-left: 70px;
+      }
+      .ftr3{
+        margin-left: 70px;
+      }
+      .ftr4{
+        margin-left: 70px;
+      }
+      .copy{
+        display: flex;
+        margin-left: 600px;
+      }
